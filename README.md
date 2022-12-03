@@ -2,12 +2,12 @@
 convert directory tree into ASCII tree string
 
 ## Method Overview
-`getTree(start_path, sub_file_prefix, start_pos_char)`
+`getTree(start_path, sub_file_prefix, sub_dir_indent, start_pos_char)`
 
 ## Usage
 Code Sample
 ```python
-getTree('my-react-app',  '├─', '│')
+getTree('my-react-app',  '├─', '─', '│')
 ```
 
 Print result
